@@ -50,10 +50,10 @@
             #endregion
 
             #region Question 8
-            var largeCategories = products
-    .GroupBy(p => p.Category)
-    .Where(g => g.Count() > 3)
-    .Select(g => g.Key);
+    //        var largeCategories = products
+    //.GroupBy(p => p.Category)
+    //.Where(g => g.Count() > 3)
+    //.Select(g => g.Key);
             #endregion
 
             #region Question 9
