@@ -23,9 +23,9 @@
             #endregion
 
             #region Question 4
-            bool allSeafoodInStock = products
-    .Where(p => p.Category == "Seafood") 
-    .All(p => p.UnitsInStock > 0);
+    //        bool allSeafoodInStock = products
+    //.Where(p => p.Category == "Seafood") 
+    //.All(p => p.UnitsInStock > 0);
             #endregion
 
             #region Question 5
