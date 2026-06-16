@@ -77,9 +77,9 @@
             #endregion
 
             #region Question 12
-            var distinctCategories = products
-    .Select(p => p.Category)
-    .Distinct();
+    //        var distinctCategories = products
+    //.Select(p => p.Category)
+    //.Distinct();
             #endregion
 
             #region Question 13
