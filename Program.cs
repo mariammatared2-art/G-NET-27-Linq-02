@@ -114,7 +114,7 @@
             #endregion
 
             #region Question 18
-            var tableOfSeven = Enumerable.Range(1, 12).Select(i => $"{i} x 7 = {i * 7}");
+            //var tableOfSeven = Enumerable.Range(1, 12).Select(i => $"{i} x 7 = {i * 7}");
             #endregion
 
             #region Question 19
