@@ -57,14 +57,14 @@
             #endregion
 
             #region Question 9
-            var customerStats = from c in customers
-                                group c by c.Country into countryGroup
-                                select new
-                                {
-                                    Country = countryGroup.Key,
-                                    Count = countryGroup.Count(),
-                                    TotalOrderValue = countryGroup.Sum(c => c.Orders.Sum(o => o.OrderTotal))
-                                };
+            //var customerStats = from c in customers
+            //                    group c by c.Country into countryGroup
+            //                    select new
+            //                    {
+            //                        Country = countryGroup.Key,
+            //                        Count = countryGroup.Count(),
+            //                        TotalOrderValue = countryGroup.Sum(c => c.Orders.Sum(o => o.OrderTotal))
+            //                    };
             #endregion
 
             #region Question 10
