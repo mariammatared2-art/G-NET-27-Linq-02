@@ -17,9 +17,9 @@
             #endregion
 
             #region Question 3
-            var cheapProducts = products
-    .OrderBy(p => p.UnitPrice)
-    .TakeWhile(p => p.UnitPrice < 25);
+    //        var cheapProducts = products
+    //.OrderBy(p => p.UnitPrice)
+    //.TakeWhile(p => p.UnitPrice < 25);
             #endregion
 
             #region Question 4
