@@ -43,10 +43,10 @@
             #endregion
 
             #region Question 7
-            var productNamesByCategory = products.GroupBy(
-    p => p.Category,
-    p => p.ProductName
-);
+//            var productNamesByCategory = products.GroupBy(
+//    p => p.Category,
+//    p => p.ProductName
+//);
             #endregion
 
             #region Question 8
