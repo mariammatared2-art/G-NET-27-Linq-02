@@ -97,12 +97,12 @@
             #endregion
 
             #region Question 15
-            Dictionary<int, Product> productDict = products.ToDictionary(p => p.ProductID);
+            //Dictionary<int, Product> productDict = products.ToDictionary(p => p.ProductID);
 
-            if (productDict.TryGetValue(18, out Product targetProduct))
-            {
-                Console.WriteLine($"Found: {targetProduct.ProductName}");
-            }
+            //if (productDict.TryGetValue(18, out Product targetProduct))
+            //{
+            //    Console.WriteLine($"Found: {targetProduct.ProductName}");
+            //}
             #endregion
 
             #region Question 16
