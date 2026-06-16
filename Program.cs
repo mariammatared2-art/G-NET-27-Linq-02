@@ -122,10 +122,10 @@
             #endregion
 
             #region Question 20
-            var first3Products = products.Take(3).Select(p => p.ProductName);
-            var first3Customers = customers.Take(3).Select(c => c.CompanyName);
+            //var first3Products = products.Take(3).Select(p => p.ProductName);
+            //var first3Customers = customers.Take(3).Select(c => c.CompanyName);
 
-            var concatenatedSequence = first3Products.Concat(first3Customers);
+            //var concatenatedSequence = first3Products.Concat(first3Customers);
             #endregion
 
             #region Question 21
