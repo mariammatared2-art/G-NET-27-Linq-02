@@ -34,12 +34,12 @@
             #endregion
 
             #region Question 6
-            var groupedByCount = products.GroupBy(p => p.Category);
+            //var groupedByCount = products.GroupBy(p => p.Category);
 
-            foreach (var group in groupedByCount)
-            {
-                Console.WriteLine($"Category: {group.Key}, Count: {group.Count()}");
-            }
+            //foreach (var group in groupedByCount)
+            //{
+            //    Console.WriteLine($"Category: {group.Key}, Count: {group.Count()}");
+            //}
             #endregion
 
             #region Question 7
