@@ -90,10 +90,10 @@
             #endregion
 
             #region Question 14
-            string[] list1 = { "Germany", "France", "UK", "Spain" };
-            string[] list2 = { "france", "SPAIN", "Italy" };
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
 
-            var uniqueCountries = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+            //var uniqueCountries = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
             #endregion
 
             #region Question 15
