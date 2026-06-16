@@ -118,7 +118,7 @@
             #endregion
 
             #region Question 19
-            var evenNumbers = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+            //var evenNumbers = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
             #endregion
 
             #region Question 20
