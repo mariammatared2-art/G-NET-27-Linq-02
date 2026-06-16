@@ -106,7 +106,7 @@
             #endregion
 
             #region Question 16
-            var firstExpensiveProduct = products.First(p => p.UnitPrice > 50);
+            //var firstExpensiveProduct = products.First(p => p.UnitPrice > 50);
             #endregion
 
             #region Question 17
