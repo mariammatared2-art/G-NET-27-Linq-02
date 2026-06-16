@@ -110,7 +110,7 @@
             #endregion
 
             #region Question 17
-            var tryGetProduct = products.FirstOrDefault(p => p.UnitPrice > 500);
+            //var tryGetProduct = products.FirstOrDefault(p => p.UnitPrice > 500);
             #endregion
 
             #region Question 18
