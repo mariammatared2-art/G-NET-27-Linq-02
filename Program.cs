@@ -11,9 +11,9 @@
             #endregion
 
             #region Question 2
-            var page2 = products
-    .Skip(5)
-    .Take(5);
+    //        var page2 = products
+    //.Skip(5)
+    //.Take(5);
             #endregion
 
             #region Question 3
