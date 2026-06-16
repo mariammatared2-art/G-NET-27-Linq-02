@@ -68,7 +68,7 @@
             #endregion
 
             #region Question 10
-            int totalStock = products.Sum(p => p.UnitsInStock);
+            //int totalStock = products.Sum(p => p.UnitsInStock);
             #endregion
 
             #region Question 11
