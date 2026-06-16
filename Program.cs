@@ -72,8 +72,8 @@
             #endregion
 
             #region Question 11
-            decimal minPrice = products.Min(p => p.UnitPrice);
-            decimal maxPrice = products.Max(p => p.UnitPrice);
+            //decimal minPrice = products.Min(p => p.UnitPrice);
+            //decimal maxPrice = products.Max(p => p.UnitPrice);
             #endregion
 
             #region Question 12
