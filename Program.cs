@@ -129,7 +129,7 @@
             #endregion
 
             #region Question 21
-            var pairedPairs = products.Zip(customers, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+            //var pairedPairs = products.Zip(customers, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
             #endregion
         }
     }
